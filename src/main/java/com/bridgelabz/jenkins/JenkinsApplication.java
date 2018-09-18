@@ -11,5 +11,9 @@ public class JenkinsApplication {
 		for(int i=1;i<=10;i++) {
 			System.out.println("Hello world------"+i);
 		}
+		String[] names= {"mamta","Shruthi","simran","Prateek","Swetha"};
+		for(int i=0;i<names.length;i++) {
+			System.out.println(names[i]);
+		}
 	}
 }
