@@ -19,7 +19,7 @@ public class JenkinsApplication {
 			System.out.println(names[i]);
 		}*/
 	}
-	@GetMapping("/getMessage")
+	@GetMapping("/")
 	public String getMessage() {
 		return "hellooooo... world...";
 	}
